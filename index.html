@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+
+
+
+
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container-header
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 7rem;
+        }
+        body
+        {
+            background:#f5f9ff;
+        }
+
+
+
+        table,
+        th,
+        td
+        {
+            border: 2px solid #cbd5e1;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8fafc;
+        }
+
+
+
+        .bg-green
+        {
+            background-color: rgb(173, 214, 144);
+            color: white;
+            text-shadow: 1px 1px 1.5px black;
+        }
+        .bg-red
+        {
+            background-color: rgba(209, 31, 46, 0.452);
+            color: white;
+            text-shadow: 1px 1px 1.5px black;
+        }
+        .bg-yellow
+        {
+            background-color: rgba(255, 188, 72, 0.623);
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .bg-blue
+        {
+            background-color: #84a7ca;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .bg-grey
+        {
+            background-color: rgb(158, 158, 158);
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .bg-purple
+        {
+            background-color: rgb(185, 132, 186);
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .bg-orange
+        {
+            background-color: rgb(247, 168, 29);
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .bg-green_2
+        {
+            background-color: rgb(0, 155, 123);
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .bg-pink
+        {
+            background-color: rgb(228, 149, 175);
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .bg-blue_2
+        {
+            background-color: rgba(1, 114, 184, 0.726);
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+        .bg-mint
+        {
+            background-color: rgba(127, 203, 190, 0.616);
+            color: white;
+            text-shadow: 1px 1px 2px black;  
+        }
+
+        footer
+        {
+            text-align: center;
+            margin-top: 5rem;
+            color: #555;
+        }
+
+    </style>
+
+<body>
+    
+    <header>
+        
+        <div class="container-header" >
+        
+            <table>
+            
+            <thead>
+                <tr>
+                    <th colspan="19" style="font-size: 2rem;" >ตารางธาตุ</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                
+                <tr>
+                    <td class="bg-green" >H</td>
+                    <td colspan="16" ></td>
+                    <td class="bg-pink" >He</td>
+                </tr>
+            
+                <tr>
+                    <td class="bg-red" >Li</td>
+                    <td class="bg-yellow" >Be</td>
+                    <td colspan="10" ></td>
+                    <td class="bg-orange" >B</td>
+                    <td class="bg-green_2" >C</td>
+                    <td class="bg-green_2" >N</td>
+                    <td class="bg-green_2" >O</td>
+                    <td class="bg-green" >F</td>
+                    <td class="bg-pink" >Ne</td>
+                </tr>
+
+                <tr>
+                    <td class="bg-red" >Na</td>
+                    <td class="bg-yellow" >Mg</td>
+                    <td colspan="10" ></td>
+                    <td class="bg-purple" >Al</td>
+                    <td class="bg-orange" >Si</td>
+                    <td class="bg-green_2" >P</td>
+                    <td class="bg-green_2" >S</td>
+                    <td class="bg-green" >Cl</td>
+                    <td class="bg-pink" >Ar</td>
+                </tr>
+
+                <tr>
+                    <td class="bg-red" >K</td>
+                    <td class="bg-yellow" >Ca</td>
+                    <td class="bg-blue" >Sc</td>
+                    <td class="bg-blue" >Ti</td>
+                    <td class="bg-blue" >V</td>
+                    <td class="bg-blue"  >Cr</td>
+                    <td class="bg-blue" >Mn</td>
+                    <td class="bg-blue" >Fe</td>
+                    <td class="bg-blue" >Co</td>
+                    <td class="bg-blue" >Ni</td>
+                    <td class="bg-blue" >Cu</td>
+                    <td class="bg-blue" >Zn</td>
+                    <td class="bg-purple"  >Ga</td>
+                    <td class="bg-orange" >Ge</td>
+                    <td class="bg-orange" >As</td>
+                    <td class="bg-green_2" >Se</td>
+                    <td class="bg-green" >Br</td>
+                    <td class="bg-pink" >Kr</td>
+                </tr>
+
+                <tr>
+                    <td class="bg-red" >Rb</td>
+                    <td class="bg-yellow" >Sr</td>
+                    <td class="bg-blue" >Y</td>
+                    <td class="bg-blue" >Zr</td>
+                    <td class="bg-blue" >Nb</td>
+                    <td class="bg-blue" >Mo</td>
+                    <td class="bg-blue" >Tc</td>
+                    <td class="bg-blue" >Ru</td>
+                    <td class="bg-blue" >Rh</td>
+                    <td class="bg-blue" >Pd</td>
+                    <td class="bg-blue" >Ag</td>
+                    <td class="bg-blue" >Cd</td>
+                    <td class="bg-purple">In</td>
+                    <td class="bg-purple">Sn</td>
+                    <td class="bg-orange" >Sb</td>
+                    <td class="bg-orange" >Te</td>
+                    <td class="bg-green" >I</td>
+                    <td class="bg-pink" >Xe</td>
+                </tr>
+
+                <tr>
+                    <td class="bg-red">Cs</td>
+                    <td class="bg-yellow" >Ba</td>
+                    <td></td>
+                    <td class="bg-blue" >Hf</td>
+                    <td class="bg-blue" >Ta</td>
+                    <td class="bg-blue" >W</td>
+                    <td class="bg-blue" >Re</td>
+                    <td class="bg-blue" >Os</td>
+                    <td class="bg-blue" >Ir</td>
+                    <td class="bg-blue" >Pt</td>
+                    <td class="bg-blue" >Au</td>
+                    <td class="bg-blue" >Hg</td>
+                    <td class="bg-purple"  >Tl</td>
+                    <td class="bg-purple"  >Pb</td>
+                    <td class="bg-purple"  >Bi</td>
+                    <td class="bg-purple"  >Po</td>
+                    <td class="bg-green" >At</td>
+                    <td class="bg-pink" >Rn</td>
+
+                </tr>
+
+                <tr>
+                    <td class="bg-red" >Fr</td>
+                    <td class="bg-yellow" >Ra</td>
+                    <td></td>
+                    <td class="bg-blue" >Rf</td>
+                    <td class="bg-blue" >Db</td>
+                    <td class="bg-blue" >Sg</td>
+                    <td class="bg-blue" >Bh</td>
+                    <td class="bg-blue" >Hs</td>
+                    <td class="bg-grey" >Mt</td>
+                    <td class="bg-grey" >Ds</td>
+                    <td class="bg-grey" >Rg</td>
+                    <td class="bg-blue" >Cn</td>
+                    <td class="bg-grey" >Nh</td>
+                    <td class="bg-grey" >Fl</td>
+                    <td class="bg-grey" >Mc</td>
+                    <td class="bg-grey" >Lv</td>
+                    <td class="bg-grey" >Ts</td>
+                    <td class="bg-grey" >Og</td>
+                </tr>
+
+                <tr>
+                    <td colspan="19" style="padding: 1.5rem;"></td>
+                </tr>
+
+
+
+
+                    <tr>
+                        <td colspan="2" ></td>
+                        <td class="bg-blue_2" >La</td>
+                        <td class="bg-blue_2" >Ce</td>
+                        <td class="bg-blue_2" >Pr</td>
+                        <td class="bg-blue_2" >Nd</td>
+                        <td class="bg-blue_2" >Pm</td>
+                        <td class="bg-blue_2" >Sm</td>
+                        <td class="bg-blue_2" >Eu</td>
+                        <td class="bg-blue_2" >Gd</td>
+                        <td class="bg-blue_2" >Tb</td>
+                        <td class="bg-blue_2" >Dy</td>
+                        <td class="bg-blue_2" >Ho</td>
+                        <td class="bg-blue_2" >Er</td>
+                        <td class="bg-blue_2" >Tm</td>
+                        <td class="bg-blue_2" >Yb</td>
+                        <td class="bg-blue_2" >Lu</td>
+                        <td></td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" ></td>
+                        <td class="bg-mint" >Ac</td>
+                        <td class="bg-mint" >Th</td>
+                        <td class="bg-mint" >Pa</td>
+                        <td class="bg-mint" >U</td>
+                        <td class="bg-mint" >Np</td>
+                        <td class="bg-mint" >Pu</td>
+                        <td class="bg-mint" >Am</td>
+                        <td class="bg-mint" >Cm</td>
+                        <td class="bg-mint" >Bk</td>
+                        <td class="bg-mint" >Cf</td>
+                        <td class="bg-mint" >Es</td>
+                        <td class="bg-mint" >Fm</td>
+                        <td class="bg-mint" >Md</td>
+                        <td class="bg-mint" >No</td>
+                        <td class="bg-mint" >Lr</td>
+                        <td></td>
+                    </tr>
+        
+            </tbody>
+    
+        </table>
+        
+    
+    </div>
+
+</header>
+
+
+    <footer>
+        <p>จัดทำโดย นายทนุธรรม สีหามาตร์ 085</p>
+        <p>แผนก คอมพิวเตอร์ธุรกิจดิจิทัล</p>
+        <p>@2026 เรื่องตารางธาตุ</p>
+    </footer>
+
+
+</body>
+</html>
