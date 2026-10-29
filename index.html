@@ -120,6 +120,37 @@
             margin-top: 5rem;
             color: #555;
         }
+        
+        .container-header {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+            margin-top: 2rem;
+            padding: 0 10px;
+        }
+
+        .container-header table {
+            width: max-content;
+            min-width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            
+            table,
+            th,
+            td {
+                font-size: 14px;
+                padding: 5px;
+            }
+    
+            .container-header {
+                margin-top: 1rem;
+            }
+    
+            footer {
+                font-size: 12px;
+            }
+    }
 
     </style>
 
